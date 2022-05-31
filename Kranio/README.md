@@ -31,4 +31,4 @@ I have followed the architecture for this problem using Airflow for orchestratio
 
 The dataset downloaded from Kaggle is processed as the file TransformPySpark.ipynb where the necessary transformations are created, these end up in 5 folders with their partitions joined with a csv file for each metric.
 
-The file is responsible for going through each folder of the project, extracting the csv and generating a dataframe for each metric that will later be displayed.
+The file is responsible for going through each folder of the project, extracting the csv and generating a dataframe for each metric that will later be displayed. You can see the result in the file
