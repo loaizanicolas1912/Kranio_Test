@@ -17,4 +17,4 @@ I have followed the architecture for this problem using Airflow for orchestratio
 
 ## FILES
 1) Airflow_Kranio_dag.py = This file contain Dag and code about orchestration with Airflow using PapermillOperator 
-![arqui](https://user-images.githubusercontent.com/66838187/171286881-06812759-71f8-44f2-8673-55a777cab5f9.PNG)
+![ELT_AIRFLOW](https://user-images.githubusercontent.com/66838187/171286970-d9b75043-a8c9-46fe-a4e7-41227b848093.PNG)
