@@ -18,6 +18,7 @@ Total of releases for each genre for the last 5 years
 
 ## Architecture
 I have followed the architecture for this problem using Airflow for orchestration of Transform and Load files. Airflow is inside a local Docker container with the official Apache Airflow image
+
 ![arqui](https://user-images.githubusercontent.com/66838187/171284842-99e2e1b2-23bf-4411-a416-855253099a12.PNG)
 
 ## Files
