@@ -5,10 +5,15 @@ analytics based on past releases database found on kaggle movies dataset and pre
 
 ## Metrics
 The final report should present the following metrics:
+
 Most profitable movies by semester
+
 Most profitable genres by year
+
 Top 10 profitable movies by genres (maximum of 5 genres)
+
 Movies popularity by month (to know the best release date)
+
 Total of releases for each genre for the last 5 years
 
 ## Architecture
