@@ -26,3 +26,9 @@ I have followed the architecture for this problem using Airflow for orchestratio
 ![ELT_AIRFLOW](https://user-images.githubusercontent.com/66838187/171286970-d9b75043-a8c9-46fe-a4e7-41227b848093.PNG)
 2) TransformPySpark.ipynb = This file contain all transformations with Spark - PySpark where this generates five csv files with data about metrics with folder structure data1p, data2p... until 5p
 3) PandasLoad.ipynb = This file contain all transformations Pandas where this generates five visual graphs that represent the metrics calculated
+
+## HOW DOES IT WORK
+
+The dataset downloaded from Kaggle is processed as the file TransformPySpark.ipynb where the necessary transformations are created, these end up in 5 folders with their partitions joined with a csv file for each metric.
+
+The file is responsible for going through each folder of the project, extracting the csv and generating a dataframe for each metric that will later be displayed.
