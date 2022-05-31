@@ -3,7 +3,7 @@
 Imagine we work for a movie studio companny, and we're trying to decide what will be our next great production. For that, you should do some
 analytics based on past releases database found on kaggle movies dataset and present them for executives of the companny.
 
-##Metrics
+## Metrics
 The final report should present the following metrics:
 Most profitable movies by semester
 Most profitable genres by year
