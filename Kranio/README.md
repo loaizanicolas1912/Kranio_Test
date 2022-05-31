@@ -18,3 +18,5 @@ I have followed the architecture for this problem using Airflow for orchestratio
 ## FILES
 1) Airflow_Kranio_dag.py = This file contain Dag and code about orchestration with Airflow using PapermillOperator 
 ![ELT_AIRFLOW](https://user-images.githubusercontent.com/66838187/171286970-d9b75043-a8c9-46fe-a4e7-41227b848093.PNG)
+2) TransformPySpark.ipynb = This file contain all transformations with Spark - PySpark where this generates five csv files with data about metrics with folder structure data1p, data2p... until 5p
+3) PandasLoad.ipynb = This file contain all transformations Pandas where this generates five visual graphs that represent the metrics calculated
